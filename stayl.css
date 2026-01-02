@@ -1,0 +1,25 @@
+:root {
+  --bg: #f6fbff;
+  --bg-2: #e8f4ff;
+  --accent: #2563eb;
+  --text: #374151;
+}
+body {
+  background: linear-gradient(135deg, var(--bg), var(--bg-2));
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  margin: 2rem;
+  font-weight: bold;
+  
+}
+h1 {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  font-size: 40px;
+}
+p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  font-size: 20px;
+}
